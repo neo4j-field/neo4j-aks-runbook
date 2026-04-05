@@ -9,6 +9,42 @@ matter when running Neo4j at scale in the cloud.
 
 ---
 
+## What You Get
+
+A fully operational Neo4j cluster monitored and managed through Neo4j Ops Manager,
+running on AKS with production-grade TLS, persistent storage, and Azure Load Balancers.
+
+### NOM Dashboard
+
+The NOM home screen gives an at-a-glance view of all monitored DBMS instances
+and their health status.
+
+![NOM Home](screenshots/NOM_Home.png)
+
+### 3-Node Cluster Topology
+
+Once all agents are connected, NOM visualises the full cluster topology. All
+three nodes are visible with their online status, database counts, agent names,
+and uptime.
+
+![Cluster Status](screenshots/NOM_Status_with_3_Node_Cluster.png)
+
+### Agent Status
+
+The Agents page confirms all NOM agents are connected and reporting. In a
+multi-cluster setup, agents from different AKS clusters all appear here.
+
+![NOM Agents](screenshots/NOM_Agents.png)
+
+### Metrics
+
+NOM collects host-level and database-level metrics across all nodes. CPU usage,
+CPU idle, and memory are tracked per node and displayed as time-series graphs.
+
+![NOM Metrics](screenshots/NOM_Metrics.png)
+
+---
+
 ## Runbooks
 
 | Runbook | Description |
