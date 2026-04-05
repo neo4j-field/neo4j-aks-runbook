@@ -29,6 +29,15 @@ and uptime.
 
 ![Cluster Status](screenshots/NOM_Status_with_3_Node_Cluster.png)
 
+### Database View
+
+NOM expands the view to show the databases running on each node, including their
+roles (primary or writer) and when they were last started. This is useful for
+verifying database topology and identifying which node holds the write leader for
+each database.
+
+![NOM Databases](screenshots/NOM_Databases.png)
+
 ### Agent Status
 
 The Agents page confirms all NOM agents are connected and reporting. In a
